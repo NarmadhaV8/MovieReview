@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+/* --------------------------- */
+/* 🌊 Light Blue Theme (default) */
+/* --------------------------- */
+body {
+  background: #cfe8ff; /* light blue */
+  color: #1e3a8a; /* dark blue text */
+  transition: all 0.3s ease;
+}
+
+/* Home Page Background */
+.home-page {
+  background: #e0f2fe; /* slightly lighter blue for home */
+}
+
+/* Navbar */
+nav {
+  background-color: #7ecbfa;
+  color: #1e3a8a;
+}
+
+/* Input */
+input {
+  background-color: #bfdbfe;
+  color: #1e3a8a;
+  border: 1px solid #60a5fa;
+}
+
+/* Movie cards */
+.movie-card {
+  background-color: #dbeafe; /* light blue card */
+  color: #1e3a8a;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Buttons */
+button {
+  background-color: #3b82f6;
+  color: white;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background-color: #2563eb;
+}
+/* --------------------------- */
+/* 🎬 Review Section */
+/* --------------------------- */
+.review-section {
+  background-color: #bfdbfe; /* light blue for review cards */
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease, color 0.3s ease;
+  margin-bottom: 1.5rem;
+}
+
+.review-section h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1e3a8a;
+}
+
+.review-section p {
+  color: #1e3a8a;
+}
+.profile-page {
+  background: #cfe8ff; /* light blue */
+  color: #1e3a8a;
+  transition: all 0.3s ease;
+}
+
+/* Profile Card */
+.profile-page .profile-card {
+  background: #ffffff;
+  color: #1e3a8a;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 2rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Inputs */
+.profile-page input {
+  background-color: #bfdbfe;
+  color: #1e3a8a;
+  border: 1px solid #60a5fa;
+}
+
+/* Buttons */
+.profile-page button {
+  background-color: #3b82f6;
+  color: white;
+}
+.profile-page button:hover {
+  background-color: #2563eb;
+}
+
+/* --------------------------- */
+/* 🌙 Dark Blue Theme */
+/* --------------------------- */
+html.dark body {
+  background: #0f172a; /* very dark blue */
+  color: #93c5fd; /* light blue text */
+}
+
+/* Home Page Dark Background */
+html.dark .home-page {
+  background: #1e293b; /* dark blue for home */
+}
+
+html.dark nav {
+  background-color: #1e3a8a;
+  color: #93c5fd;
+}
+
+html.dark input {
+  background-color: #1e3a8a;
+  color: #dbeafe;
+  border: 1px solid #2563eb;
+}
+
+html.dark .movie-card {
+  background-color: #1e40af; /* dark blue card */
+  color: #dbeafe;
+}
+
+html.dark button {
+  background-color: #2563eb;
+  color: white;
+}
+html.dark button:hover {
+  background-color: #1e3a8a;
+}
+* Dark mode review background */
+html.dark .review-section {
+  background-color: #1e3a8a; /* dark blue review background */
+  color: #dbeafe;
+}
+
+html.dark .review-section h3,
+html.dark .review-section p {
+  color: #dbeafe;
+}
+html.dark .profile-page {
+  background: #0f172a;
+  color: #93c5fd;
+}
+
+html.dark .profile-page .profile-card {
+  background: #1e3a8a;
+  color: #dbeafe;
+}
+
+html.dark .profile-page input {
+  background-color: #1e3a8a;
+  color: #dbeafe;
+  border: 1px solid #2563eb;
+}
+
+html.dark .profile-page button {
+  background-color: #2563eb;
+}
+html.dark .profile-page button:hover {
+  background-color: #1e3a8a;
+}

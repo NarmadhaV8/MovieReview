@@ -1,0 +1,102 @@
+/* User dropdown */
+.user-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.dropdown-btn {
+  background: #3367d6;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-menu button {
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dropdown-menu button:hover {
+  background: #f0f0f0;
+}
+
+/* Home container */
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #2d4a6b; /* dark blue background */
+  min-height: 100vh;
+}
+
+/* Title */
+.home-container h1 {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+/* Search bar */
+.search-bar {
+  margin: 10px auto 30px auto;
+  max-width: 300px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Grid layout */
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 30px;
+  justify-items: center;
+  align-items: start;
+}
+
+/* Reviews list */
+.review-list {
+  margin-top: 12px;
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .movies-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .movies-grid {
+    grid-template-columns: 1fr;
+  }
+}
